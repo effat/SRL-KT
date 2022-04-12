@@ -30,9 +30,9 @@ Consulting learning science literature, we identified self-regulated learning (S
 2. The interaction vector serves as the Key and Value vector in our transformer model. The Query vector is textual content embedding of current question (E).
 
 3. Our model uses scaled dot product attention. In addition, we add three components in our attention mechanism
-    a) Exponetial time-decaying relationship to put more weight on recent action and less on distant ones. 
+    a) Exponetial time-decaying relationship to put more weight on recent action and less on distant ones. (Mimicing forgetting behavior of human memory.)
 
-    b) Discover semantic relationship between the current question and a previously attempted (i) question or (ii) SRL actions
+    b) Discover semantic relationship between the current question and a prior (i) question or (ii) SRL actions
 
     c) Discover semantic relationship between the the current question's response and a previously attempted SRL actions. (To understand: Are students' using their highlighted/ annotated text in responding to a question?) 
 
