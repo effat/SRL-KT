@@ -15,6 +15,9 @@ from datetime import datetime, timedelta
 from model_SRL_prediction import SRL_KT
 from utils import *
 
+## Code adapted from RKT (CIKM 2020) https://github.com/shalini1194/RKT and AKT (KDD 2020) https://github.com/arghosh/AKT
+
+
 ### to exit main function 
 import sys
 
