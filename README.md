@@ -38,3 +38,15 @@ Consulting learning science literature, we identified self-regulated learning (S
 
 
 4. The prediction layer predicts the score of the current question.
+
+# Reference
+If you want to utilize this code, consider citing our work:
+
+```
+@article{farhana2022predictive,
+  title={Predictive Student Modelling in an Online Reading Platform},
+  author={Farhana, Effat and Rutherford, Teomara and Lynch, Collin F},
+   booktitle={In Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2022}
+}
+```
